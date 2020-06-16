@@ -34,17 +34,17 @@ namespace mpcdi {
             XX(in,PREFIX,) \
             XX(ft,PREFIX,) \
             XX(yd,PREFIX,) \
-            XX(unkown,PREFIX,) 
+            XX(unknown,PREFIX,) 
 
 #define INTERPOLATION_ENUMS(XX,PREFIX) XX(linear,PREFIX,) \
             XX(keystone,PREFIX,) \
             XX(smooth,PREFIX,) \
-            XX(unkown,PREFIX,) 
+            XX(unknown,PREFIX,) 
 
 #define ORGIN_OF_3D_ENUMS(XX,PREFIX) XX(centerOfMass,PREFIX,) \
             XX(idealEyePoint,PREFIX,) \
             XX(floorCenter,PREFIX,) \
-            XX(unkown,PREFIX,) 
+            XX(unknown,PREFIX,) 
 
 MPCDI_DECLARE_ENUM_TYPEDEF(GeometricUnit,GEOMETRIC_UNIT_ENUMS);
 MPCDI_DECLARE_ENUM_CONV_FUNC(GeometricUnit);

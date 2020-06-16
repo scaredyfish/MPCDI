@@ -55,7 +55,7 @@ MPCDI_Error Profile::ValidateProfile()
     }
 
   bool firstRegion=true;
-  OriginOf3DData globalOriginOf3DData = OriginOf3DDataunkown;
+  OriginOf3DData globalOriginOf3DData = OriginOf3DDataunknown;
   for(mpcdi::Display::BufferIterator bufferIt=this->GetDisplay()->GetBufferBegin(); bufferIt != this->GetDisplay()->GetBufferEnd(); bufferIt++) 
   {
     mpcdi::Buffer *buffer = bufferIt->second;

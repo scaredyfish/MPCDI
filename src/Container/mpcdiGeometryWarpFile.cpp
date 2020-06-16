@@ -22,9 +22,9 @@ MPCDI_DEFINE_ENUM_CONV_FUNC(Interpolation,mpcdi,INTERPOLATION_ENUMS);
 
 GeometryWarpFile::GeometryWarpFile(unsigned int sizeX, unsigned int sizeY)
   : PFM(sizeX,sizeY),
-  m_GeometricUnit(GeometricUnitunkown),
-  m_Interpolation(Interpolationunkown),
-  m_OriginOf3DData(OriginOf3DDataunkown)
+  m_GeometricUnit(GeometricUnitunknown),
+  m_Interpolation(Interpolationunknown),
+  m_OriginOf3DData(OriginOf3DDataunknown)
 {
 
 }
