@@ -1,0 +1,7 @@
+Build
+.vs
+.vscode
+*.vcproj
+*.vcxproj
+*.vcxproj.filters
+*.sln

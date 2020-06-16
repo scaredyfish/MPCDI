@@ -1,0 +1,26 @@
+var mpcdi_macros_8h =
+[
+    [ "__mpcdiMacros_H_", "mpcdi_macros_8h.html#a8c12b0e57080923dcec21e70272c7424", null ],
+    [ "_impcdi_CASSERT_LINE", "mpcdi_macros_8h.html#aedba6a8b40169d573b892f71017a3ecf", null ],
+    [ "_impcdi_PASTE", "mpcdi_macros_8h.html#aa0df08b757f1c667dd2810ac4518a4af", null ],
+    [ "CompilerAssert", "mpcdi_macros_8h.html#ac1bb880591c33e9d668dadfeb584deab", null ],
+    [ "MPCDI_DECLARE_ENUM", "mpcdi_macros_8h.html#a57d82fb28d7ea3d29b787c79f3fe2ca9", null ],
+    [ "MPCDI_DECLARE_ENUM_CONV_FUNC", "mpcdi_macros_8h.html#aa882b6baa25140dd6eae93ab6761b048", null ],
+    [ "MPCDI_DECLARE_ENUM_TYPEDEF", "mpcdi_macros_8h.html#a04fbd56942ee8ce9ce9f3e0f636fdccf", null ],
+    [ "MPCDI_DEFINE_ENUM_CONV_FUNC", "mpcdi_macros_8h.html#ab9a7a15d291fdace9f939b67bc1b8a72", null ],
+    [ "MPCDI_ENUM_CASE", "mpcdi_macros_8h.html#a1338d3963cf6b04512f158e0407d1f46", null ],
+    [ "MPCDI_ENUM_STRCMP", "mpcdi_macros_8h.html#aaa26460d502cc49919219ee3347f2ecd", null ],
+    [ "MPCDI_ENUM_VALUE", "mpcdi_macros_8h.html#af381e11dc74914af9a74f1739a6c1316", null ],
+    [ "MPCDI_FAIL_RET", "mpcdi_macros_8h.html#a1770fc1b240a096dd93af8f685332ba9", null ],
+    [ "mpcdiErrorMacro", "mpcdi_macros_8h.html#a111a3f6e53ae6384271cee9da0651fe0", null ],
+    [ "mpcdiGetConstMacro", "mpcdi_macros_8h.html#a6ab33a7ec4aa8161c3543c1ef076d319", null ],
+    [ "mpcdiGetMacro", "mpcdi_macros_8h.html#a25ae17f8471a9bf584e4b13eae4782fb", null ],
+    [ "mpcdiGetRefMacro", "mpcdi_macros_8h.html#a6832927aa4a956bed665cdbafacd81c9", null ],
+    [ "mpcdiSafeDeleteMacro", "mpcdi_macros_8h.html#a6cac6b16c6552b26de6ede14d5d24ad0", null ],
+    [ "mpcdiSet2Macro", "mpcdi_macros_8h.html#ab44e6edda8b02cba126ea2bc185ebfec", null ],
+    [ "mpcdiSet3Macro", "mpcdi_macros_8h.html#affe15c1bcae0826a7ecee2f07c460cfd", null ],
+    [ "mpcdiSetMacro", "mpcdi_macros_8h.html#aa069c9e81e8c911fba635cf2d3807b38", null ],
+    [ "mpcdiSetMacroRange", "mpcdi_macros_8h.html#a7d52a3852128121830435a75ef4bf651", null ],
+    [ "mpcdiSetRefMacro", "mpcdi_macros_8h.html#a2f3fa2b73ac158a4915f668a46516e21", null ],
+    [ "mpcdiWarningMacro", "mpcdi_macros_8h.html#a4bfd75d3ae7a5d5e35db1e6014ab92c9", null ]
+];
