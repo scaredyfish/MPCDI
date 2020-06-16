@@ -259,8 +259,8 @@ mpcdi::MPCDI_Error DrawRectangle(mpcdi::DataMap *data,
 {
   if (cc>=data->GetComponentDepth())   return mpcdi::MPCDI_FAILURE;
 
-  for(unsigned int j=0;j<data->GetSizeY();j++)
-    for(unsigned int i=0;i<data->GetSizeX();i++)
+  for(int j=0;j<(int)data->GetSizeY();j++)
+    for(int i=0;i<(int)data->GetSizeX();i++)
       {
         if ((abs(i-cx)<=Sidex/2)&& (abs(j-cy)<=Sidey/2))
           (*data)(i,j,cc) = intensity;
@@ -305,8 +305,8 @@ mpcdi::MPCDI_Error DrawRectangleInPFM(mpcdi::PFM *data,
                                       const int &Sidex, 
                                       const int &Sidey)
 {
-  for(unsigned int j=0;j<data->GetSizeY();j++)
-    for(unsigned int i=0;i<data->GetSizeX();i++)
+  for(int j=0;j<(int)data->GetSizeY();j++)
+    for(int i=0;i<(int)data->GetSizeX();i++)
     {
       if ((abs(i-cx)<=Sidex/2)&& (abs(j-cy)<=Sidey/2))
       {
